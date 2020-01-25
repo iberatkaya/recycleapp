@@ -79,5 +79,15 @@ class Drawer extends Component {
    }
 }
 
+stack.navigationOptions = ({ navigation }: any) => {
+   let name = (navigation.state.index !== undefined ? navigation.state.routes[navigation.state.index] : navigation.state.routeName)
+   let drawerLockMode = 'locked-closed'
+   if (name.routeName == 'Home') {
+       drawerLockMode = 'unlocked'
+   }
+   return {
+       drawerLockMode,
+   };
+}
 
 export default createAppContainer(drawer);

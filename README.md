@@ -5,6 +5,7 @@
 
 > Recycler is a React Native App that uses Tenserflow.js. It uses a custom trained model to classify recyclable objects. Check out the [model](https://github.com/iberatkaya/recycletrain).
 
+### 🏠 [Homepage](https://play.google.com/store/apps/details?id=com.kaya.recycler)
 
 ## Install
 
